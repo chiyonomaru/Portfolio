@@ -129,7 +129,8 @@ header h1{
 }
 
 section {
-  min-height: 500px;
+  padding: 500px;
+  height: 500px;
   background-color: #dddddd;
   margin-bottom: 40px;
 }
