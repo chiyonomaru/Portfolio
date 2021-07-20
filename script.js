@@ -31,7 +31,7 @@ $('#MenuList').show();
 
 }
 
-});
+   });
 
 
    // Smooth Scrool
@@ -53,3 +53,7 @@ $('#MenuList').show();
     $('body,html').animate({scrollTop: position}, speed, 'swing');
 
     return false;
+
+   });
+
+});  
