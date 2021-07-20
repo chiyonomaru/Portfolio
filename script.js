@@ -1,46 +1,46 @@
-function() {
+$(function() {
 
   // Menu Toggle
 
-    $(".MenuButton").on(click, function () {
-       $(this).toggleClass('open');
-       $('#MenuList').slideToggle();
-    });
+  $('#MenuButton').on('click', function () {
+    $(this).toggleClass('open');
+    $('#MenuList').slideToggle();
+  });
 
-    $("MenuList a").on('click', function () {
-      if( window.innerWidth <= 768){
-        $('#MenuButton').removeClass('open');
-        $('#MenuList').slideToggle();
-      }
-    });
+  $('#MenuList a').on('click', function () {
+    if( window.innerWidth <= 768){
+      $('#MenuButton').removeClass('open');
+      $('#MenuList').slideToggle();
+    }
+  });
 
-  // window Resize Function
+  // Window Resize Function
 
   $(window).resize(function(){
 
-    if(Window.innerWidth <= 768){
+    if( window.innerWidth <= 768){
 
-    $('#MenuList').hide();
-    $('#MenuButton').show();
-    $('#MenuButton').removeClass('open');
+      $('#MenuList').hide();
+      $('#MenuButton').show();
+      $('#MenuButton').removeClass('open');
 
-  } else {
+    } else {
 
-$('#MenuButton').hide();
-$('#MenuList').show();
+      $('#MenuButton').hide();
+      $('#MenuList').show();
 
-}
+    }
 
-   });
+  });
 
 
-   // Smooth Scrool
+  // Smooth Scrool
 
   $('a[href^="#"]').click(function() {
 
     // 初期設定：移動時間(ms)と頭出し位置
     var speed = 500;
-    var offset = -97;
+    var offset = -96;
 
     // アンカーを取得
     var anchor = $(this).attr("href");
@@ -50,10 +50,10 @@ $('#MenuList').show();
     var position = target.offset().top + offset;
 
     // スクロール（アニメーション）
-    $('body,html').animate({scrollTop: position}, speed, 'swing');
+    $('body,html').animate({scrollTop:position}, speed, 'swing');
 
     return false;
 
    });
 
-});  
+});
