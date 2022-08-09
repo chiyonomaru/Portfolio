@@ -55,11 +55,19 @@ h1 {
   text-align: center;
 }
 
-img {
-  border-radius: 50%;
-  height: 300px;
-  width:  300px;
+.kktm {
+  border-left: 50%;
+  height: 50px;
+  width:  50px;
   object-fit: cover;
+}
+
+.イラスト合作合成 エフェクトを追加 {
+ border-radius: 50%;
+ height: 50px;
+ width: 50px;
+ object-fit: cover;
+
 }
   #MenuButton{
     display: block;
@@ -172,6 +180,7 @@ footer {
   padding: 40px;
   text-align: center;
   margin-bottom: 20px;
+  color: #000000;
   background-color: #ffffff;
-  color: black;
+
 }
