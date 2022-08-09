@@ -50,6 +50,14 @@ header h1{
 
 @media only screen and (max-width: 768px) {
 
+h1 {
+  width: 300px;
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+}
   #MenuButton{
     display: block;
     position: absolute;
@@ -57,6 +65,22 @@ header h1{
     right: 2rem;
   }
 
+a {
+  background-color: #ff9a9e;
+  display: block;
+  padding:  20px 0;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+ul {
+  width: 300px;margin: 0 auto;
+}
+
+li {
+  margin-bottom: 20px;
+}
     .MenuButtonLine {
       position: relative;
       display: block;
@@ -138,8 +162,10 @@ section h1{
   margin-bottom: 1rem;
 }
 
-footer{
+footer {
   padding: 40px;
-  background-color: #333333;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #ffffff;
   color: white;
 }
