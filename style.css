@@ -25,6 +25,7 @@ content{
   width:  500px;
   margin: 10px auto;
   background: #ccc;
+  color: #fff;
 }
 li {
   list-style:none;
@@ -50,7 +51,7 @@ ul{
 nav {
   position: absolute;
   right: 40px;
-  padding: 3rem 6rem;
+  padding: 3rem 4rem;
 }
 .header-list nav ul {
   display: flex;
