@@ -18,9 +18,9 @@ li {
   padding: 20px 40px;
 }
 
-.header-list li{
-  float: left;
-  padding: 20px 40px;
+.header-list li {
+  float: right;
+  padding: 33px 20px;
 }
 
 .main {
