@@ -47,7 +47,7 @@ ul{
 .contents {
  justify-content: center;
   height: 500px;
-  margin-top: 100px;
+  margin: 100px auto;
 }
 
 .section-title {
@@ -56,9 +56,6 @@ ul{
   margin-bottom: 50px;
 }
 
-.contents{
-  margin: 20px auto;
-  width: 300x;
 }
 .contents-item {
   justify-content: center;
