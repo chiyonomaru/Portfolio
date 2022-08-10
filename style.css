@@ -1,6 +1,6 @@
 body {
   font-family: "Avenir Next";
-  background-image: url("しぐれ背景透過切り抜き.png");
+  background-image: url("https://github.com/chiyonomaru/Portfolio/blob/main/image/%E3%81%97%E3%81%90%E3%82%8C%E8%83%8C%E6%99%AF%E9%80%8F%E9%81%8E%E5%88%87%E3%82%8A%E6%8A%9C%E3%81%8D.png");
   background-size: cover;
 }
 
@@ -17,6 +17,8 @@ li {
 .header-logo {
   float: left;
   font-size: 36px;
+  font-weight: bold;
+  color: #000000;
   padding: 20px 40px;
 }
 
@@ -45,6 +47,7 @@ ul{
 .contents {
   height: 500px;
   margin-top: 100px;
+
 
 }
 
