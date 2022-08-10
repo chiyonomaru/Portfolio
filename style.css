@@ -46,6 +46,11 @@ li {
 ul{
   display: flex;
 }
+nav {
+  position: absolute;
+  right: 20px;
+  padding: 1rem 3rem;
+}
 .header-list nav ul {
   display: flex;
   flex-direction: row;
