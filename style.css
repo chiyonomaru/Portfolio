@@ -1,25 +1,53 @@
-*{
-  margin:0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
+body {
+  font-family: "Avenir Next";
 }
 
-header{
-  position: fixed;
-  top: 0;
-  left: 0;
+li {
+  list-style:none;
+}
+
+.header{
   width: 100%;
-  height: 4rem;
+  height: 90px;
   background-color: #ff6347;
   color: lightyellow;
 }
 
-header h1{
-  position: absolute;
-  top: 1rem;
-  left: 2rem;
-  font-size: 1.5rem;
+.header-logon {
+  float: left;
+  font-size: 36px;
+  padding:33px 20px;
+}
+
+.header-list li{
+  float: left;
+  padding: 20px 40px;
+}
+
+.main {
+  padding: 100px 80px;
+}
+.copy-container span {
+  color: #000000;
+}
+
+.contents {
+  height: 500px;
+  margin-top: 100px;
+
+}
+
+.section-title {
+  border-bottom: 2px solid #000000;
+  font-size: 28px;
+  padding-bottom: : 15px;
+  margin-bottom: 50px;
+}
+.contents-item {
+  float: left;
+  margin-top: 30px;
+  margin-right: 40px;
+  font-size: 24px;
 }
 
 #MenuButton{
@@ -54,15 +82,6 @@ h1 {
   width: 300px;
   text-align: center;
 }
-
-.kktm {
-  border-left: 50%;
-  object-fit: cover;
-}
-
-.イラスト合作合成 エフェクトを追加 {
- border-radius: 50%;
- object-fit: cover;
 
 }
   #MenuButton{
