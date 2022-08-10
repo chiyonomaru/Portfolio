@@ -19,7 +19,7 @@ li {
 }
 
 .header-list li {
-  float: right;
+  float: left;
   padding: 33px 20px;
 }
 
