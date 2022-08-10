@@ -47,6 +47,8 @@ ul{
   display: flex;
 }
 .header-list nav ul {
+  display: flex;
+  flex-direction: row;
   font-size: 40px;
   float: left;
   padding: 12px 0px 10px;
