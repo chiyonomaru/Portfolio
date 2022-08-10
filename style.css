@@ -1,5 +1,7 @@
 body {
   font-family: "Avenir Next";
+  background-image: url(しぐれ背景透過2.png);
+  background-size: cover;
 }
 
 li {
@@ -30,6 +32,7 @@ ul{
 .header-list nav ul li a {
   margin: 0 20px;
   padding: 20px 40px;
+  font-size: 36px;
 }
 
 .main {
