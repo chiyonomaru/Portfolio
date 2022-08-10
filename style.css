@@ -50,7 +50,7 @@ ul{
 nav ul {
   position: absolute;
   right: 10px;
-  padding: 1rem 2rem ;
+  padding: -1rem -2rem ;
 }
 .header-list nav ul {
   display: flex;
