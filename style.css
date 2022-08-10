@@ -18,7 +18,6 @@ li {
   float: left;
   font-size: 36px;
   font-weight: bold;
-  color: #000000;
   padding: 20px 40px;
 }
 
@@ -45,10 +44,9 @@ ul{
 }
 
 .contents {
+ justify-content: center;
   height: 500px;
   margin-top: 100px;
-
-
 }
 
 .section-title {
@@ -57,7 +55,10 @@ ul{
   margin-bottom: 50px;
 }
 
-
+.contents{
+  margin: 20px auto;
+  width: 300x;
+}
 .contents-item {
   justify-content: center;
   float: left;
