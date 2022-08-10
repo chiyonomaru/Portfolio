@@ -46,6 +46,7 @@ li {
 ul{
   display: flex;
 }
+
 nav {
   position: absolute;
   right: 40px;
@@ -61,7 +62,7 @@ nav {
 
 .header-list nav ul li a {
  justify-content: flex-end;
-  margin-right: 2rem;
+  margin-right: 4rem;
   padding: 20px 40px;
   font-size: 20px;
 }
