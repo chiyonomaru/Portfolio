@@ -50,7 +50,6 @@ ul{
 
 .header-list nav ul li a {
  justify-content: flex-end;
-  width: 300px;
   margin: 0 20px;
   padding: 20px 40px;
   font-size: 20px;
