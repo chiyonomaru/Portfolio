@@ -1,14 +1,32 @@
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Avenir Next";
   background-image: url("https://github.com/chiyonomaru/Portfolio/blob/main/image/%E3%81%97%E3%81%90%E3%82%8C%E8%83%8C%E6%99%AF%E9%80%8F%E9%81%8E%E5%88%87%E3%82%8A%E6%8A%9C%E3%81%8D.png");
   background-size: cover;
 }
 
+.content{
+  margin-top: 80px;
+}
+
+.box{
+  height:  500px;
+  width:  500px;
+  margin: 10px auto;
+  background: #ccc;
+  color: #fff;
+}
 li {
   list-style:none;
 }
 
 .header {
+  position: fixed;
+  top:0;
+  width: 100%;
+  padding: 5px;
   background-color: #ff6347;
   color: #ffffff;
   height: 90px;
