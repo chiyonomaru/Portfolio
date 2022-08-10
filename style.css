@@ -27,7 +27,7 @@ ul{
   padding: 12px 0px 10px;
 }
 
-.header-list nav ul li {
+.header-list nav ul li a {
   margin: 0 20px;
 }
 
