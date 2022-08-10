@@ -7,6 +7,11 @@ body {
   background-size: cover;
 }
 
+.header{
+
+  background: #333;
+  color:  #fff;
+}
 
 .content{
   margin-top: 80px;
@@ -50,8 +55,8 @@ ul{
 }
 
 .header-list nav ul li a {
-  display: flex;
-  margin-right: 0 20px;
+ justify-content: flex-end;
+  margin: 0 20px;
   padding: 20px 40px;
   font-size: 20px;
 }
@@ -65,7 +70,6 @@ ul{
 
 .contents {
  justify-content: center;
- float: left;
   height: 500px;
   margin: 100px auto;
 }
