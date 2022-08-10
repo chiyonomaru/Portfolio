@@ -27,7 +27,7 @@ li {
   top:0;
   width: 100%;
   padding: 5px;
-  background-color: #ff6347;
+  background-color: #ced2d1;
   color: #ffffff;
   height: 90px;
 }
@@ -45,6 +45,7 @@ ul{
 .header-list nav ul {
   font-size: 40px;
   float: left;
+  margin-right: auto;
   padding: 12px 0px 10px;
 }
 
@@ -76,8 +77,8 @@ ul{
 
 }
 .contents-item {
-  justify-content: center;
   float: left;
+  margin-right: 40px;
   font-weight: bold;
   font-size: 24px;
 }
