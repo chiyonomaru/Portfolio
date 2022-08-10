@@ -19,6 +19,7 @@ li {
 }
 
 .header-list nav ul {
+  float: left;
   display: flex;
   justify-content: center;
   border-top: 2px solid #7c5d48;
