@@ -53,7 +53,7 @@ nav ul {
   padding: 1rem 3rem ;
 }
 .header-list nav ul {
-  display: flex;
+ position: absolute;
   margin-right: -2rem;
   flex-direction: row;
   font-size: 40px;
