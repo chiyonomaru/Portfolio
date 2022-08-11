@@ -47,7 +47,7 @@ ul{
 nav ul {
   position: absolute;
   margin-right: -100px;
-  margin-left:  -80px;
+  float:right;  
   padding: 1rem 3rem ;
 }
 .header-list nav ul {
