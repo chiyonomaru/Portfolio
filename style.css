@@ -11,9 +11,8 @@ body {
   position: fixed;
   top:0;
   width: 100%;
-  height: 90px;
   padding: 5px;
-  background: #000000;
+  background: #333;
   color:  #fff;
 }
 
@@ -31,11 +30,15 @@ li {
   list-style:none;
 }
 
+.header {
+  background-color: #ff6347;
+  color: #ffffff;
+  height: 90px;
 }
 
 .header-logo {
   float: left;
-  font-size: 50px;
+  font-size: 36px;
   font-weight: bold;
   padding: 20px 40px;
 }
@@ -47,7 +50,7 @@ ul{
 nav ul {
   position: absolute;
   margin-right: -100px;
-  float:right;
+  margin-left:  80px;
   padding: 1rem 3rem ;
 }
 .header-list nav ul {
@@ -55,7 +58,7 @@ nav ul {
   margin-right: -2rem;
   flex-direction: row;
   font-size: 40px;
-  float: right;
+  float: left;
   padding: 12px 0px 10px;
 }
 
