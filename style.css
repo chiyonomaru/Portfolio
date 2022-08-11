@@ -52,9 +52,10 @@ nav ul {
   right: 30px;
   padding: 1rem 3rem ;
 }
+header
 .header-list nav ul {
   display: flex;
-  margin-right: -40px;
+  margin-right: -20px;
   flex-direction: row;
   font-size: 40px;
   float: left;
@@ -63,7 +64,7 @@ nav ul {
 
 .header-list nav ul li a {
  justify-content: center;
-  margin-right: -40px;
+  margin-right: -20px;
   padding: 20px 40px;
   font-size: 20px;
 }
