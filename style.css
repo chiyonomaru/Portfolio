@@ -62,7 +62,7 @@ nav ul {
 }
 
 .header-list nav ul li a {
- justify-content: flex-end;
+ justify-content: center;
   margin-right: -40px;
   padding: 20px 40px;
   font-size: 20px;
