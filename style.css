@@ -55,7 +55,7 @@ nav ul {
 header
 .header-list nav ul {
   display: flex;
-  margin-right: -20px;
+  margin: auto -20px;
   flex-direction: row;
   font-size: 40px;
   float: left;
@@ -64,7 +64,7 @@ header
 
 .header-list nav ul li a {
  justify-content: center;
-  margin-right: -20px;
+  margin: auto -20px;
   padding: 20px 40px;
   font-size: 20px;
 }
